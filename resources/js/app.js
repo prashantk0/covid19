@@ -25,13 +25,13 @@ let app_data = [],
 
 //GET USERS COUNTRY CODE
 
-let country_code = geoplugin_countryCode();
-let user_country;
-country_list.forEach( country => {
-	if (country.code == country_code){
-		user_country = country.name;
-	}
-});
+// let country_code = geoplugin_countryCode();
+let user_country = "India";
+// country_list.forEach( country => {
+// 	if (country.code == country_code){
+// 		user_country = country.name;
+// 	}
+// });
 
 console.log(user_country);
 
